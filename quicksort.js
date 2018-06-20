@@ -1,3 +1,8 @@
+/**
+ * Быстрая сортировка
+ * Quick sort
+ */ 
+
 function quicksort(array) {
     if (array instanceof Array) {
         if (array.length < 2) {
